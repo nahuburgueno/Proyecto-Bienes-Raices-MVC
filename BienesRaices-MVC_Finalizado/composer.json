@@ -1,0 +1,21 @@
+{
+    "name": "nahu/htdocs",
+    "description": "Creando un proyecto con POO",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nahuel Burgueño",
+            "email": "nahuelburge@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
